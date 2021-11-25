@@ -8,7 +8,7 @@
     <title>Cidades - Londres</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
         #cabecalho {
             height: 200px;
@@ -22,7 +22,6 @@
         }
 
         #conteudo-principal {
-            height: 450px;
             background-color: #FFFFFF;
         }
 
@@ -46,6 +45,24 @@
             font-size: 25px;
             color: #2D2080
         }
+
+        .subtitulo {
+            font-size: 40px;
+            color: #9149EC;
+            font-family: 'Poppins';
+            font-weight: 600;
+        }
+
+        .texto-comum {
+            font-size: 14px;
+            font-weight: 300;
+            font-family: 'Open Sans', sans-serif;
+            text-align: justify;
+        }
+
+        .texto-colunas{
+            column-count: 2;
+        }
     </style>
 </head>
 
@@ -58,7 +75,40 @@
         <a href="paris.html" class="item-menu">Paris</a> -
         <a href="tokyo.html" class="item-menu">Tokio</a>
     </nav>
-    <main id="conteudo-principal"></main>
+    <main id="conteudo-principal">
+        <h2 class="subtitulo">Londres</h2>
+        <video autoplay loop width="600" controls>
+            <source src="video/video-londres.mp4" type="video/mp4">
+        </video>
+
+        <p class="texto-comum">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere purus sed urna sagittis
+            hendrerit. Pellentesque viverra nunc lorem, eu molestie lorem fringilla nec. Mauris congue quam lectus, et
+            euismod nisl rhoncus eu. Donec eget ante rutrum, auctor lectus sed, viverra nisl. Maecenas eu vulputate
+            quam. Donec ullamcorper luctus rutrum. Donec fermentum auctor aliquam. Sed placerat felis nec efficitur
+            condimentum. Proin ac enim vitae leo ultricies laoreet. Quisque vulputate sapien nec elit aliquam, id
+            interdum justo consectetur. Praesent semper nibh placerat arcu venenatis, eu fermentum felis sollicitudin.
+            Suspendisse nec enim arcu. Maecenas vitae nisi sed sem mollis porttitor efficitur sagittis quam. Nunc tortor
+            nisi, dignissim a mi a, lacinia vestibulum lorem. Etiam magna diam, ultrices consectetur tincidunt ut,
+            lobortis in dolor.
+        </p>
+        <p class="texto-comum">
+            Curabitur porttitor ante a tortor congue, sit amet aliquam erat varius. Praesent et orci nec lectus posuere
+            fermentum non quis mi. Aenean consectetur vel elit maximus pretium. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. Fusce vitae accumsan augue. Aliquam eu mauris sed mi
+            auctor fringilla. Phasellus maximus nisi et sapien varius fringilla. Vivamus nunc turpis, congue in rhoncus
+            in, congue ut augue. Nulla viverra eros eu ante blandit, vel convallis odio blandit. In nec dapibus leo.
+            Cras massa metus, lobortis sit amet laoreet eu, condimentum sit amet ante. Nunc consequat ultricies luctus.
+        </p>
+        <p class="texto-comum texto-colunas">
+            Duis non magna diam. Duis dictum sapien ut tortor bibendum vehicula in et tellus. Curabitur a dictum erat.
+            Proin id neque eu augue commodo venenatis ut at elit. Vestibulum vel suscipit nisl, et laoreet dui.
+            Curabitur diam augue, aliquam ac felis eu, vestibulum fringilla lorem. Nunc bibendum congue eros, in
+            molestie magna mattis sit amet. Aliquam erat volutpat. Mauris ultricies id purus in interdum. Maecenas a
+            congue nisl, a euismod lacus. Ut sit amet lacus nec nisl ultricies tristique. Quisque quis nisi nisl.
+            Phasellus interdum convallis nunc, placerat interdum sapien fringilla in. Donec ultrices sed sem et gravida.
+        </p>
+    </main>
     <footer id="rodape"></footer>
 
 </body>
