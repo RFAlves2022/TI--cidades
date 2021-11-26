@@ -15,6 +15,15 @@
             background-color: #C4C4C4;
         }
 
+        #titulo {
+            font-size: 150px;
+            color: #9149EC;
+            font-weight: 100;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+        }    
+
         #menu-de-navegacao {
             height: 70px;
             background-color: #8A8A8A;
@@ -30,15 +39,7 @@
             background-color: #C4C4C4;
         }
 
-        #titulo {
-            font-size: 150px;
-            color: #9149EC;
-            font-weight: 100;
-            text-align: center;
-            font-family: 'Poppins', sans-serif;
-            text-transform: uppercase;
-        }
-
+        
         .item-menu {
             font-family: 'Poppins', sans-serif;
             font-weight: 600;
@@ -60,8 +61,14 @@
             text-align: justify;
         }
 
-        .texto-colunas{
+        .texto-colunas {
             column-count: 2;
+        }
+
+        .creditos {
+            font-family: 'Poppins';
+            font-size: 20px;
+            text-align: center;
         }
     </style>
 </head>
@@ -78,7 +85,7 @@
     <main id="conteudo-principal">
         <h2 class="subtitulo">Londres</h2>
         <video autoplay loop width="600" controls>
-            <source src="video/video-londres.mp4" type="video/mp4">
+            <source src="videos/video-londres.mp4" type="video/mp4">
         </video>
 
         <p class="texto-comum">
@@ -108,8 +115,16 @@
             congue nisl, a euismod lacus. Ut sit amet lacus nec nisl ultricies tristique. Quisque quis nisi nisl.
             Phasellus interdum convallis nunc, placerat interdum sapien fringilla in. Donec ultrices sed sem et gravida.
         </p>
+
+        <img src="/fotos/londres.jpg" alt="Londres" width="600">
+
+
     </main>
-    <footer id="rodape"></footer>
+    <footer id="rodape">
+        <p class="creditos">
+            Desenvolvido por Rafael Alves. &reg;Todos os direitos reservados. 2022
+        </p>
+    </footer>
 
 </body>
 

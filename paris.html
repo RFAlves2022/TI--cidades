@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidades - Paris</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        #cabecalho {
+            height: 200px;
+            background-color: #C4C4C4;
+        }
+
+        #titulo {
+            font-size: 150px;
+            color: #9149EC;
+            font-weight: 100;
+            text-align: center;
+            font-family: 'Poppins';
+            text-transform: uppercase;
+        }
+
+        #menu-de-navegacao {
+            height: 70px;
+            background-color: gray;
+            text-align: center;
+        }
+
+        #conteudo-principal {
+            background-color: #FFFFFF;
+        }
+
+        #rodape {
+            height: 70px;
+            background-color: #C4C4C4;
+        }
+
+
+        .item-menu {
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 25px;
+            color: #2D2080;
+        }
+
+        .subtitulo {
+            font-size: 40px;
+            font-weight: 600;
+            font-family: 'Poppins';
+            color: #9149EC;
+        }
+
+        .texto-comum {
+            font-size: 14px;
+            font-weight: 300;
+            font-family: 'Open Sans';
+            text-align: justify;
+        }
+
+        .texto-colunas {
+            column-count: 2;
+        }
+
+        .creditos {
+            font-family: 'Poppins';
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header id="cabecalho">
+        <h1 id="titulo">Cidades</h1>
+    </header>
+
+    <nav id="menu-de-navegacao">
+        <a href="index.html" class="item-menu">Londres</a> -
+        <a href="paris.html" class="item-menu">Paris</a> -
+        <a href="tokyo.html" class="item-menu">Tokyo</a>
+    </nav>
+
+    <main id="conteudo-principal">
+        <h2 class="subtitulo">Paris</h2>
+        <video autoplay loop width="600" controls>
+            <source src="videos/video-paris.mp4" type="video/mp4">
+        </video>
+
+        <p class="texto-comum">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat dui tortor, in feugiat ex
+            pretium a. Vestibulum pretium gravida elit non lobortis. Curabitur velit lorem, faucibus quis tortor eu,
+            congue tempor nisi. Quisque porta ullamcorper nisi, vitae egestas purus mattis quis. Integer non consequat
+            mi. Praesent gravida sodales turpis quis tincidunt. Vivamus tempus, orci a rhoncus mattis, neque massa
+            elementum ex, porttitor ultricies erat dolor quis dui. Nulla et egestas magna, id aliquet sapien. Proin
+            imperdiet consequat posuere. Etiam mauris odio, pretium sed accumsan non, pellentesque in nisl.
+        </p>
+        <p class="texto-comum">
+            Morbi in iaculis purus, a volutpat augue. Donec finibus dignissim lacus, sit amet malesuada lectus faucibus
+            rutrum. Nunc id magna condimentum augue feugiat consectetur ac at sem. Nam euismod id elit eu ultricies. Sed
+            nisl neque, hendrerit ac ipsum eu, dictum varius nunc. Aenean vestibulum eleifend nulla sed tristique.
+            Mauris sit amet orci commodo, lobortis justo vel, dapibus purus. Praesent et eleifend nulla. Fusce urna
+            lacus, vestibulum quis elementum vitae, iaculis at libero. Vestibulum at felis eget nisl bibendum porttitor
+            quis eget neque. Nunc commodo sagittis fermentum. Mauris auctor accumsan feugiat. Proin non mattis metus.
+        </p>
+        <p class="texto-comum" class="texto-colunas">
+            Suspendisse quis porttitor arcu, ac ultrices massa. Donec nec risus quis mi luctus gravida sed ac nibh.
+            Quisque pellentesque cursus ligula at luctus. Proin a diam turpis. Nullam aliquam nibh id orci euismod
+            pulvinar. Aliquam erat volutpat. Curabitur lorem justo, maximus vitae varius aliquet, porta quis eros.
+            Vivamus lobortis viverra mauris, varius rutrum nisl congue sed. Nulla ex ante, ultrices et rutrum ac,
+            euismod sit amet dolor. Donec lacus elit, lobortis a ex id, hendrerit ultricies libero. Donec maximus urna
+            et mauris interdum volutpat. Maecenas vel tortor massa. Nam iaculis, elit non tempus molestie, libero diam
+            bibendum ipsum, at fermentum turpis massa et metus. Class aptent taciti sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos. Integer efficitur, purus et bibendum tincidunt, urna ex tincidunt
+            sem, id condimentum ipsum mi ac diam. Nunc pulvinar vulputate risus, convallis accumsan erat facilisis a.
+        </p>
+
+        <img src="/fotos/paris.jpg" alt="londres-museu-do-louvre" width="600">
+
+    </main>
+
+    <footer id="rodape">
+        <p class="creditos">
+            Desenvolvido por Rafael Alves.&reg; Todos os direitos reservados. 2022
+        </p>
+    </footer>
+
+</body>
+
+</html>
